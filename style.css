@@ -33,13 +33,8 @@ body {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
-  /* transition: background-color 0.2s ease, transform 0.1s ease; */
 }
 
-/* #calculator td:hover {
-  background-color: grey;
-  transform: scale(1.05);
-} */
 
 #screen {
   background-color: #222;
@@ -58,6 +53,21 @@ body {
   color: white;
 }
 
-/* #calculator tr:nth-child(2) td:hover {
-  background-color: #ff4c4c;
-}    */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#calculator {
+    flex: 1;
+    margin-top: 50px; 
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
